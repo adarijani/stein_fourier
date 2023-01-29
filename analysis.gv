@@ -8,5 +8,6 @@ digraph Analysis {
 	ANALYSIS -> COMPLEX_ANALYSIS [label = "edge"];
 	ANALYSIS -> FUNCTIONAL_ANALYSIS [label = "edge"];
 	ANALYSIS -> HARMONIC_ANALYSIS [label = "edge"];
+	HARMONIC_ANALYSIS -> FOURIER_ANALYSIS [label = "edge"];
 	
 }
