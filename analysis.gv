@@ -5,9 +5,10 @@ digraph Analysis {
 	rankdir="TB";
 	node [shape = circle];
 	ANALYSIS -> REAL_ANALYSIS [label = "edge"];
+	ANALYSIS -> MATHEMATICAL_ANALYSIS [label = "edge"];
 	ANALYSIS -> COMPLEX_ANALYSIS [label = "edge"];
 	ANALYSIS -> FUNCTIONAL_ANALYSIS [label = "edge"];
 	ANALYSIS -> HARMONIC_ANALYSIS [label = "edge"];
-	HARMONIC_ANALYSIS -> FOURIER_ANALYSIS [label = "edge"];
+
 	
 }
