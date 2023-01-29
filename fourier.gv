@@ -1,0 +1,12 @@
+digraph Analysis {
+	fontname="Helvetica,Arial,sans-serif"
+	node [fontname="Helvetica,Arial,sans-serif"]
+	edge [fontname="Helvetica,Arial,sans-serif"]
+	rankdir="TB";
+	node [shape = circle];
+	ANALYSIS -> REAL_ANALYSIS [label = "edge"];
+	ANALYSIS -> COMPLEX_ANALYSIS [label = "edge"];
+	ANALYSIS -> FUNCTIONAL_ANALYSIS [label = "edge"];
+	ANALYSIS -> HARMONIC_ANALYSIS [label = "edge"];
+	
+}
